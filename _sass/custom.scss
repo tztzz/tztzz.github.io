@@ -1,0 +1,22 @@
+:root {
+    --light-color: #222;
+    --light-background: #fff;
+    --dark-color: #fff;
+    --dark-background: #222;
+}
+
+body {
+    background: var(--light-background);
+    color: var(--light-color);
+}
+
+/* dark theme */
+
+body.negative {
+    background: var(--dark-background);
+    color: var(--dark-color);
+}
+
+body.negative a {
+    color: red;
+}
